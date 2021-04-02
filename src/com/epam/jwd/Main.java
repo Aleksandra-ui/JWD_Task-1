@@ -22,32 +22,12 @@ public class Main {
 		Triangle[] triangles = new Triangle[2];
 		Square[] squares = new Square[1];
 
-		Random random = new Random();
+		Logic logic = new Logic();
+		logic.fillArray(points);
+		logic.fillArray(lines);
+		logic.fillArray(squares);
 
-		int i;
-		for (i = 0; i < points.length; i++) {
-			points[i] = new Point(random.nextInt(20), random.nextInt(20));
-		}
-
-		for (i = 0; i < lines.length; i++) {
-			lines[i] = new Line(new Point(random.nextInt(20), random.nextInt(20)),
-					new Point(random.nextInt(20), random.nextInt(20)));
-		}
-
-		for (i = 0; i < triangles.length; i++) {
-			triangles[i] = new Triangle(new Point(random.nextInt(20), random.nextInt(20)),
-					new Point(random.nextInt(20), random.nextInt(20)),
-					new Point(random.nextInt(20), random.nextInt(20)));
-		}
-
-		for (i = 0; i < squares.length; i++) {
-			squares[i] = new Square(UserInput.enterPoint("Введите координаты 1 точки квадрата:"),
-					UserInput.enterPoint("Введите координаты 2 точки квадрата:"),
-					UserInput.enterPoint("Введите координаты 3 точки квадрата:"),
-					UserInput.enterPoint("Введите координаты 4 точки квадрата:"));
-		}
-
-		i = 0;
+		int i = 0;
 		do {
 			System.out.println(points[i++].toString());
 			logger.info("Вывели {} точку на экран", i);
