@@ -88,3 +88,21 @@
 2021-04-01 13:07:05 INFO  Main:64 - Вывели 1 треугольник на экран
 2021-04-01 13:07:05 INFO  Main:64 - Вывели 2 треугольник на экран
 2021-04-01 13:07:05 ERROR Main:77 - Объект Square [p1=Point [x=5, y=5], p2=Point [x=5, y=5], p3=Point [x=5, y=5], p4=Point [x=5, y=5]] не является квадратом
+2021-04-14 11:06:19 INFO  Main:33 - Ð’Ñ‹Ð²ÐµÐ»Ð¸ 1 Ñ‚Ð¾Ñ‡ÐºÑƒ Ð½Ð° Ñ�ÐºÑ€Ð°Ð½
+2021-04-14 11:06:19 INFO  Main:33 - Ð’Ñ‹Ð²ÐµÐ»Ð¸ 2 Ñ‚Ð¾Ñ‡ÐºÑƒ Ð½Ð° Ñ�ÐºÑ€Ð°Ð½
+2021-04-14 11:06:19 INFO  Main:33 - Ð’Ñ‹Ð²ÐµÐ»Ð¸ 3 Ñ‚Ð¾Ñ‡ÐºÑƒ Ð½Ð° Ñ�ÐºÑ€Ð°Ð½
+2021-04-14 11:06:19 INFO  Main:33 - Ð’Ñ‹Ð²ÐµÐ»Ð¸ 4 Ñ‚Ð¾Ñ‡ÐºÑƒ Ð½Ð° Ñ�ÐºÑ€Ð°Ð½
+2021-04-14 11:06:19 INFO  Main:39 - Ð’Ñ‹Ð²ÐµÐ»Ð¸ 1 Ð»Ð¸Ð½Ð¸ÑŽ Ð½Ð° Ñ�ÐºÑ€Ð°Ð½
+2021-04-14 11:06:19 INFO  Main:39 - Ð’Ñ‹Ð²ÐµÐ»Ð¸ 2 Ð»Ð¸Ð½Ð¸ÑŽ Ð½Ð° Ñ�ÐºÑ€Ð°Ð½
+2021-04-14 14:59:48 INFO  Main:49 - printed triangle
+2021-04-14 14:59:48 INFO  Main:51 - printed rectangle
+2021-04-14 14:59:48 INFO  Main:53 - printed pentagon
+2021-04-14 14:59:48 INFO  Main:55 - printed hexagon
+2021-04-14 15:00:03 INFO  Main:49 - printed triangle
+2021-04-14 15:00:03 INFO  Main:51 - printed rectangle
+2021-04-14 15:00:03 INFO  Main:53 - printed pentagon
+2021-04-14 15:00:03 INFO  Main:55 - printed hexagon
+2021-04-14 15:02:41 INFO  Main:49 - printed triangle
+2021-04-14 15:02:41 INFO  Main:51 - printed rectangle
+2021-04-14 15:02:41 INFO  Main:53 - printed pentagon
+2021-04-14 15:02:41 INFO  Main:55 - printed hexagon
