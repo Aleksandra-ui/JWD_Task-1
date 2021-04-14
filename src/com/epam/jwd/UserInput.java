@@ -2,7 +2,7 @@ package com.epam.jwd;
 
 import java.util.Scanner;
 
-import com.epam.jwd.bean.Point;
+import com.epam.jwd.model.Point;
 
 public class UserInput {
 

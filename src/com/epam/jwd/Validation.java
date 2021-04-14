@@ -1,7 +1,8 @@
 package com.epam.jwd;
 
-import com.epam.jwd.bean.Point;
 import static java.lang.Math.*;
+
+import com.epam.jwd.model.Point;
 
 public class Validation {
 
