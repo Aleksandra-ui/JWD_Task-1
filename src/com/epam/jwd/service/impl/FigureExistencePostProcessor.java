@@ -11,7 +11,8 @@ import com.epam.jwd.model.Point;
 public enum FigureExistencePostProcessor implements FigurePostProcessor {
 
 	INSTANCE;
-
+	
+	//Validation works only for convex polygons
 	@Override
 	public Figure process(Figure figure) throws FigureException {
 		System.out.println(figure.getClass().getName());
