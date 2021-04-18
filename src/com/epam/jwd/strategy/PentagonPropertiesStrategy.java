@@ -4,6 +4,7 @@ import com.epam.jwd.model.Point;
 import static java.lang.Math.abs;
 import static java.lang.Math.pow;
 import static java.lang.Math.sqrt;
+import java.util.List;
 
 public class PentagonPropertiesStrategy implements FigurePropertiesStrategy {
 
@@ -18,36 +19,36 @@ public class PentagonPropertiesStrategy implements FigurePropertiesStrategy {
 	}
 
 	@Override
-	public int calculateSquare(Point... points) {
+	public int calculateSquare(List<Point> points) {
 
-		int x1 = points[0].getX();
-		int y1 = points[0].getY();
-		int x2 = points[1].getX();
-		int y2 = points[1].getY();
-		int x3 = points[2].getX();
-		int y3 = points[2].getY();
-		int x4 = points[3].getX();
-		int y4 = points[3].getY();
-		int x5 = points[3].getX();
-		int y5 = points[3].getY();
+		int x1 = points.get(0).getX();
+		int y1 = points.get(0).getY();
+		int x2 = points.get(1).getX();
+		int y2 = points.get(1).getY();
+		int x3 = points.get(2).getX();
+		int y3 = points.get(2).getY();
+		int x4 = points.get(3).getX();
+		int y4 = points.get(3).getY();
+		int x5 = points.get(4).getX();
+		int y5 = points.get(4).getY();
 
 		return abs(x1 * y2 - y1 * x2 + x2 * y3 - y2 * x3 + x3 * y4 - y3 * x4 + x4 * y5 - y4 * x5 + x1 * y5 - y1 * x5)
 				/ 2;
 	}
 
 	@Override
-	public int calculatePerimeter(Point... points) {
+	public int calculatePerimeter(List<Point> points) {
 
-		int x1 = points[0].getX();
-		int y1 = points[0].getY();
-		int x2 = points[1].getX();
-		int y2 = points[1].getY();
-		int x3 = points[2].getX();
-		int y3 = points[2].getY();
-		int x4 = points[3].getX();
-		int y4 = points[3].getY();
-		int x5 = points[4].getX();
-		int y5 = points[4].getY();
+		int x1 = points.get(0).getX();
+		int y1 = points.get(0).getY();
+		int x2 = points.get(1).getX();
+		int y2 = points.get(1).getY();
+		int x3 = points.get(2).getX();
+		int y3 = points.get(2).getY();
+		int x4 = points.get(3).getX();
+		int y4 = points.get(3).getY();
+		int x5 = points.get(4).getX();
+		int y5 = points.get(4).getY();
 		double d1;
 		double d2;
 		double d3;
